@@ -1,16 +1,20 @@
 {
-    "main": {
-        "text": "Home",
-        "link": "/en"
+  "main": {
+    "text": "Home",
+    "link": "/en"
+  },
+  "navLinks": [
+    {
+      "text": "Album",
+      "link": "/en/album"
     },
-    "navLinks": [
-        {
-            "text": "Album",
-            "link": "/en/album"
-        },
-        {
-            "text": "Chronometer",
-            "link": "/en/chronometer"
-        }
-    ]
+    {
+      "text": "Members",
+      "link": "/en/members"
+    },
+    {
+      "text": "Chronometer",
+      "link": "/en/chronometer"
+    }
+  ]
 }

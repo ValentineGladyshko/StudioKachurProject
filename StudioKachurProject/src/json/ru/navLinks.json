@@ -1,16 +1,20 @@
 {
-    "main": {
-        "text": "Дом",
-        "link": "/ru"
+  "main": {
+    "text": "Дом",
+    "link": "/ru"
+  },
+  "navLinks": [
+    {
+      "text": "Альбом",
+      "link": "/ru/album"
     },
-    "navLinks": [
-        {
-            "text": "Альбом",
-            "link": "/ru/album"
-        },
-        {
-            "text": "Хронометр",
-            "link": "/ru/chronometer"
-        }
-    ]
+    {
+      "text": "Участники",
+      "link": "/ru/members"
+    },
+    {
+      "text": "Хронометр",
+      "link": "/ru/chronometer"
+    }
+  ]
 }
