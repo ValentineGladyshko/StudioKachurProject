@@ -1,0 +1,38 @@
+.marketing .column {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.marketing h2 {
+    font-weight: 400;
+}
+
+.marketing .column p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+.featurette-divider {
+    margin: 5rem 0;
+}
+
+.bottom-divider {
+    margin: 5rem 0 0 0;
+}
+
+.featurette-image {
+    border-radius: 25px;
+}
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+.heading-image {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}

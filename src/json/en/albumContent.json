@@ -1,0 +1,156 @@
+{
+    "heading": "Album example",
+    "text": "Something short and leading about the collection below-its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.",
+    "button1": {
+        "text": "Main call to action"
+    },
+    "button2": {
+        "text": "Secondary action"
+    },
+    "thumbnailsCollection": [
+        {
+            "heading": "Advertising examples",
+            "id": "advertisingExamples",
+            "videoCollection": [
+                {
+                    "url": "https://www.youtube.com/watch?v=KRvv0QdruMQ",
+                    "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+                    "button1": {
+                        "text": "View"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=lheapd7bgLA",
+                    "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+                    "button1": {
+                        "text": "View"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=xAUJYP8tnRE",
+                    "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+                    "button1": {
+                        "text": "View"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                }
+            ]
+        },
+        {
+            "heading": "Business presentations",
+            "id": "businessPresentations",
+            "videoCollection": [
+                {
+                    "url": "https://www.youtube.com/watch?v=XFqn3uy238E",
+                    "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+                    "button1": {
+                        "text": "View"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=F1Hq8eVOMHs",
+                    "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+                    "button1": {
+                        "text": "View"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=LmpuerlbJu0",
+                    "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+                    "button1": {
+                        "text": "View"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                }
+            ]
+        },
+        {
+            "heading": "Audiobooks",
+            "id": "audiobooks",
+            "videoCollection": [
+                {
+                    "url": "https://www.youtube.com/watch?v=xaQJbozY_Is",
+                    "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+                    "button1": {
+                        "text": "View"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=yiw6_JakZFc",
+                    "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+                    "button1": {
+                        "text": "View"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=1-NxodiGPCU",
+                    "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+                    "button1": {
+                        "text": "View"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                }
+            ]
+        },
+        {
+            "heading": "Voice-over and dubbing",
+            "id": "dubbing",
+            "videoCollection": [
+                {
+                    "url": "https://www.youtube.com/watch?v=xaQJbozY_Is",
+                    "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+                    "button1": {
+                        "text": "View"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=yiw6_JakZFc",
+                    "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+                    "button1": {
+                        "text": "View"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=1-NxodiGPCU",
+                    "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+                    "button1": {
+                        "text": "View"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                }
+            ]
+        }
+    ]
+}

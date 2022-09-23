@@ -1,0 +1,73 @@
+:root {
+    --border-radius: 1rem;
+}
+
+.textareaWrapper {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: var(--border-radius);
+    box-shadow: 4px 16px 30px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0.7rem;
+}
+
+.chronometerTextarea {
+    background: rgba(255, 255, 255, 0);
+    border: 0px;
+    border-radius: 0;
+    font-size: 14px;
+    color: #fff;
+    resize: none;
+}
+
+    .chronometerTextarea:focus {
+        background: rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 0rem rgba(66, 66, 66, 0.4);
+        border: 0px;
+        border-radius: 0;
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .chronometerTextarea:disabled {
+        background: rgba(255, 255, 255, 0);
+        border: 0px;
+        border-radius: 0;
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .chronometerTextarea::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    .chronometerTextarea::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    .chronometerTextarea::-webkit-scrollbar-thumb {
+        background-color: darkgrey;
+        /*outline: 1px solid slategrey;*/
+    }
+
+.myCheckbox {
+    background-color: #666666 !important;
+    border: 1px solid rgba(66, 66, 66, 1);
+}
+
+    .myCheckbox:focus {
+        box-shadow: 0 0 0 0.2rem rgba(66, 66, 66, 0.4);
+        border: 1px solid rgba(66, 66, 66, 1);
+    }
+
+    .myCheckbox:checked {
+        border: 1px solid rgba(66, 66, 66, 1);
+    }
+
+.rounded-4 {
+    border-radius: 0.5rem!important;
+}
+.my-h1 {
+    white-space: pre-wrap;
+}

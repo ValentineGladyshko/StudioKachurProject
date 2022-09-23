@@ -1,0 +1,162 @@
+{
+    "heading": "Chronometer",
+    "text": "This is the instrument to meter the duration of voice acting for the provided text",
+    "inputTextarea": {
+        "heading": "Your text:",
+        "placeholder": "Type or paste text to measure...",
+        "button": {
+            "text": "Clear text"
+        }
+    },
+    "checkboxes": {
+        "numbersToWords": {
+            "id": "numbersToWords",
+            "label": "Convert integers to words",
+            "isChecked": true
+        },
+        "textInBrackets": {
+            "id": "textInBrackets",
+            "label": "Exclude text in brackets",
+            "isChecked": false
+        },
+        "resultInMinutes": {
+            "id": "resultInMinutes",
+            "label": "Show results in minutes",
+            "isChecked": true
+        }
+    },
+    "outputTextarea": {
+        "heading": "Processed text:"
+    },
+    "outputForms": {
+        "numberOfWords": {
+            "id": "numberOfWords",
+            "label": "number of words"
+        },
+        "numberOfSymbols": {
+            "id": "numberOfSymbols",
+            "label": "symbols"
+        },
+        "numberOfSymbolsWithoutSpaces": {
+            "id": "numberOfSymbolsWithoutSpaces",
+            "label": "symbols without spaces"
+        },
+        "numberOfPages": {
+            "id": "numberOfPages",
+            "label": "A4, Times New Roman, 14pt"
+        }
+    },
+    "timeNames": {
+        "seconds": "sec",
+        "minutes": "min",
+        "pages": "pages"
+    },
+    "numberNames": {
+        "two": [
+            "zero",
+            "one",
+            "two"
+        ],
+        "twenty": [
+            "zero",
+            "one",
+            "two",
+            "three",
+            "four",
+            "five",
+            "six",
+            "seven",
+            "eight",
+            "nine",
+            "ten",
+            "eleven",
+            "twelve",
+            "thirteen",
+            "fourteen",
+            "fifteen",
+            "sixteen",
+            "seventeen",
+            "eighteen",
+            "nineteen"
+        ],
+        "tens": [
+            "ten",
+            "twenty",
+            "thirty",
+            "fourty",
+            "fifty",
+            "sixty",
+            "seventy",
+            "eighty",
+            "ninety"
+        ],
+        "hundreds": [
+            "one hundred",
+            "two hundred",
+            "three hundred",
+            "four hundred",
+            "five hundred",
+            "six hundred",
+            "seven hundred",
+            "eight hundred",
+            "nine hundreds"
+        ],
+        "thousands": [
+            [
+                "thousand",
+                "thousand",
+                "thousand"
+            ],
+            [
+                "million",
+                "million",
+                "million"
+            ],
+            [
+                "billion",
+                "billion",
+                "billion"
+            ],
+            [
+                "trillion",
+                "trillion",
+                "trillion"
+            ],
+            [
+                "quadrillion",
+                "quadrillion",
+                "quadrillion"
+            ],
+            [
+                "quintillion",
+                "quintillion",
+                "quintillion"
+            ],
+            [
+                "sextillion",
+                "sextillion",
+                "sextillion"
+            ],
+            [
+                "septillion",
+                "septillion",
+                "septillion"
+            ],
+            [
+                "octillion",
+                "octillion",
+                "octillion"
+            ],
+            [
+                "nonillion",
+                "nonillion",
+                "nonillion"
+            ],
+            [
+                "decillion",
+                "decillion",
+                "decillion"
+            ]
+        ]
+    }
+}

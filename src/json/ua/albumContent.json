@@ -1,0 +1,156 @@
+{
+    "heading": "Альбом робіт",
+    "text": "Якийсь текст",
+    "button1": {
+        "text": "Текст кнопки"
+    },
+    "button2": {
+        "text": "Текст кнопки"
+    },
+    "thumbnailsCollection": [
+        {
+            "heading": "Теле та радіореклама",
+            "id": "advertisingExamples",
+            "videoCollection": [
+                {
+                    "url": "https://www.youtube.com/watch?v=KRvv0QdruMQ",
+                    "text": "Якийсь текст",
+                    "button1": {
+                        "text": "Текст кнопки"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=lheapd7bgLA",
+                    "text": "Якийсь текст",
+                    "button1": {
+                        "text": "Текст кнопки"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=xAUJYP8tnRE",
+                    "text": "Якийсь текст",
+                    "button1": {
+                        "text": "Текст кнопки"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                }
+            ]
+        },
+        {
+            "heading": "Бізнес-презентації",
+            "id": "businessPresentations",
+            "videoCollection": [
+                {
+                    "url": "https://www.youtube.com/watch?v=XFqn3uy238E",
+                    "text": "Якийсь текст",
+                    "button1": {
+                        "text": "Текст кнопки"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=F1Hq8eVOMHs",
+                    "text": "Якийсь текст",
+                    "button1": {
+                        "text": "Текст кнопки"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=LmpuerlbJu0",
+                    "text": "Якийсь текст",
+                    "button1": {
+                        "text": "Текст кнопки"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                }
+            ]
+        },
+        {
+            "heading": "Аудіокниги",
+            "id": "audiobooks",
+            "videoCollection": [
+                {
+                    "url": "https://www.youtube.com/watch?v=xaQJbozY_Is",
+                    "text": "Якийсь текст",
+                    "button1": {
+                        "text": "Текст кнопки"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=yiw6_JakZFc",
+                    "text": "Якийсь текст",
+                    "button1": {
+                        "text": "Текст кнопки"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=1-NxodiGPCU",
+                    "text": "Якийсь текст",
+                    "button1": {
+                        "text": "Текст кнопки"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                }
+            ]
+        },
+        {
+            "heading": "Закадрове звучання та дубляж",
+            "id": "dubbing",
+            "videoCollection": [
+                {
+                    "url": "https://www.youtube.com/watch?v=xaQJbozY_Is",
+                    "text": "Якийсь текст",
+                    "button1": {
+                        "text": "Текст кнопки"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=yiw6_JakZFc",
+                    "text": "Якийсь текст",
+                    "button1": {
+                        "text": "Текст кнопки"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=1-NxodiGPCU",
+                    "text": "Якийсь текст",
+                    "button1": {
+                        "text": "Текст кнопки"
+                    },
+                    "button2": {
+                        "text": "Edit"
+                    }
+                }
+            ]
+        }
+    ]
+}
