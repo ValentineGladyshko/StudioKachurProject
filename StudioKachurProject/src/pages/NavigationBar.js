@@ -1,7 +1,8 @@
 import { React } from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Row, Col, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './home.css';
 
 function NavigationBar(props) {
 
@@ -15,7 +16,24 @@ function NavigationBar(props) {
         <Navbar bg="dark" variant="dark" sticky="top" expand="sm">
             <Container>
                 <Nav>
-                    <NavLink className="nav-link" to={props.navLinks.main.link}>{props.navLinks.main.text}</NavLink>
+                    <NavLink className="nav-link padding1" to={props.navLinks.main.link}>
+                        <Row>
+                            <Col className="padding2">
+                                <img
+                                    alt=""
+                                    src="../logo192.png"
+                                    width="32"
+                                    height="32"
+                                    className="d-inline-block align-top"
+                                />
+                            </Col>
+                            <Col className="padding3">
+                                {props.navLinks.main.text}
+                            </Col>
+                        </Row>
+                       
+                       
+                    </NavLink>
                 </Nav>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
