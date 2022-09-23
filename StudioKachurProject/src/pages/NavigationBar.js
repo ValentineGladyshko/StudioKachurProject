@@ -26,7 +26,7 @@ function NavigationBar(props) {
                         <NavLink to="/gb" className="d-flex nav-link py-0">
                             <i className="bi bi-tiktok my-auto" style={{ fontSize: 22 }}></i>
                         </NavLink>
-                        <NavLink to="/gb" className="d-flex nav-link py-0">
+                        <NavLink to="https://instagram.com/studio_kachur" className="d-flex nav-link py-0">
                             <i className="bi bi-instagram my-auto" style={{ fontSize: 22 }}></i>
                         </NavLink>
                         {languages.map((language) => (

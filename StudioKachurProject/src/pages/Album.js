@@ -17,8 +17,8 @@ function Video(props) {
                     <Card.Text>{props.data.text}</Card.Text>
                     <div className="d-flex justify-content-between align-items-center">
                         <ButtonGroup size="sm">
-                            <Button variant="outline-light">{props.data.button1.text}</Button>
-                            <Button variant="outline-light">{props.data.button2.text}</Button>
+                            <Button variant="outline-dark">{props.data.button1.text}</Button>
+                            <Button variant="outline-dark">{props.data.button2.text}</Button>
                         </ButtonGroup>
                         <small>9 mins</small>
                     </div>

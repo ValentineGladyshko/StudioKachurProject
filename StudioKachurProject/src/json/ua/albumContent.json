@@ -9,145 +9,99 @@
     },
     "thumbnailsCollection": [
         {
-            "heading": "Теле та радіореклама",
-            "id": "advertisingExamples",
+            "heading": "Аніме",
+            "id": "anime",
             "videoCollection": [
                 {
-                    "url": "https://www.youtube.com/watch?v=KRvv0QdruMQ",
+                    "url": "https://www.youtube.com/watch?v=a2kvnOK9bLU",
                     "text": "Якийсь текст",
                     "button1": {
                         "text": "Текст кнопки"
                     },
                     "button2": {
-                        "text": "Edit"
+                        "text": "Текст кнопки"
                     }
                 },
                 {
-                    "url": "https://www.youtube.com/watch?v=lheapd7bgLA",
+                    "url": "https://www.youtube.com/watch?v=1zmFyCaH-rI",
                     "text": "Якийсь текст",
                     "button1": {
                         "text": "Текст кнопки"
                     },
                     "button2": {
-                        "text": "Edit"
+                        "text": "Текст кнопки"
                     }
                 },
                 {
-                    "url": "https://www.youtube.com/watch?v=xAUJYP8tnRE",
+                    "url": "https://www.youtube.com/watch?v=9y-4Za9AfRM",
                     "text": "Якийсь текст",
                     "button1": {
                         "text": "Текст кнопки"
                     },
                     "button2": {
-                        "text": "Edit"
+                        "text": "Текст кнопки"
                     }
                 }
             ]
         },
         {
-            "heading": "Бізнес-презентації",
-            "id": "businessPresentations",
+            "heading": "Кінематографічні ролики",
+            "id": "cinematic",
             "videoCollection": [
                 {
-                    "url": "https://www.youtube.com/watch?v=XFqn3uy238E",
+                    "url": "https://www.youtube.com/watch?v=2akfIiSCY04",
                     "text": "Якийсь текст",
                     "button1": {
                         "text": "Текст кнопки"
                     },
                     "button2": {
-                        "text": "Edit"
+                        "text": "Текст кнопки"
                     }
                 },
                 {
-                    "url": "https://www.youtube.com/watch?v=F1Hq8eVOMHs",
+                    "url": "https://www.youtube.com/watch?v=g110-M__GtU",
                     "text": "Якийсь текст",
                     "button1": {
                         "text": "Текст кнопки"
                     },
                     "button2": {
-                        "text": "Edit"
+                        "text": "Текст кнопки"
                     }
                 },
                 {
-                    "url": "https://www.youtube.com/watch?v=LmpuerlbJu0",
+                    "url": "https://www.youtube.com/watch?v=3estsyTc-EU",
                     "text": "Якийсь текст",
                     "button1": {
                         "text": "Текст кнопки"
                     },
                     "button2": {
-                        "text": "Edit"
+                        "text": "Текст кнопки"
                     }
                 }
             ]
         },
         {
-            "heading": "Аудіокниги",
-            "id": "audiobooks",
+            "heading": "Мультфільми та Мультсеріали",
+            "id": "cartoons",
             "videoCollection": [
                 {
-                    "url": "https://www.youtube.com/watch?v=xaQJbozY_Is",
+                    "url": "https://www.youtube.com/watch?v=UbhtO297TYM",
                     "text": "Якийсь текст",
                     "button1": {
                         "text": "Текст кнопки"
                     },
                     "button2": {
-                        "text": "Edit"
+                        "text": "Текст кнопки"
                     }
                 },
                 {
-                    "url": "https://www.youtube.com/watch?v=yiw6_JakZFc",
+                    "url": "https://www.youtube.com/watch?v=zmpPQNlEVwk",
                     "text": "Якийсь текст",
                     "button1": {
                         "text": "Текст кнопки"
                     },
                     "button2": {
-                        "text": "Edit"
-                    }
-                },
-                {
-                    "url": "https://www.youtube.com/watch?v=1-NxodiGPCU",
-                    "text": "Якийсь текст",
-                    "button1": {
                         "text": "Текст кнопки"
-                    },
-                    "button2": {
-                        "text": "Edit"
-                    }
-                }
-            ]
-        },
-        {
-            "heading": "Закадрове звучання та дубляж",
-            "id": "dubbing",
-            "videoCollection": [
-                {
-                    "url": "https://www.youtube.com/watch?v=xaQJbozY_Is",
-                    "text": "Якийсь текст",
-                    "button1": {
-                        "text": "Текст кнопки"
-                    },
-                    "button2": {
-                        "text": "Edit"
-                    }
-                },
-                {
-                    "url": "https://www.youtube.com/watch?v=yiw6_JakZFc",
-                    "text": "Якийсь текст",
-                    "button1": {
-                        "text": "Текст кнопки"
-                    },
-                    "button2": {
-                        "text": "Edit"
-                    }
-                },
-                {
-                    "url": "https://www.youtube.com/watch?v=1-NxodiGPCU",
-                    "text": "Якийсь текст",
-                    "button1": {
-                        "text": "Текст кнопки"
-                    },
-                    "button2": {
-                        "text": "Edit"
                     }
                 }
             ]

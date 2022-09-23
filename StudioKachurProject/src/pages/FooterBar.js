@@ -8,7 +8,7 @@ function FooterBar(props) {
             <Container>
                 <hr className="bottom-divider" />
             </Container>
-            <footer className="text-muted">
+            <footer>
                 <Container>
                     <Row className="text-center">
                         <Col xl={4} md={6} className="mb-3">
@@ -40,7 +40,7 @@ function FooterBar(props) {
 
 function SocialMediaButton(props) {
     return (
-        <a href={props.data.link} className="btn btn-outline-light rounded-circle roundButton p-2 mx-1">
+        <a href={props.data.link} className="btn btn-outline-dark rounded-circle roundButton p-2 mx-1">
             <svg className="my-auto" width="22" height="22" fill="currentColor" viewBox="0 0 16 16">
                 <path d={props.data.path} />
             </svg>
