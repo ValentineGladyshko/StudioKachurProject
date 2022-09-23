@@ -17,7 +17,7 @@
     border: 0px;
     border-radius: 0;
     font-size: 14px;
-    color: #fff;
+    color: #000;
     resize: none;
 }
 
@@ -27,7 +27,7 @@
         border: 0px;
         border-radius: 0;
         font-size: 14px;
-        color: #fff;
+        color: #000;
     }
 
     .chronometerTextarea:disabled {
@@ -35,7 +35,7 @@
         border: 0px;
         border-radius: 0;
         font-size: 14px;
-        color: #fff;
+        color: #000;
     }
 
     .chronometerTextarea::-webkit-scrollbar {

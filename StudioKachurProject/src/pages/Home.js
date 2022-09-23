@@ -83,13 +83,13 @@ function InfoPanel(props) {
 function Home(props) {
     return (
         <>
-            <MyCarousel slides={props.homeContent.slides} />
+            {/*<MyCarousel slides={props.homeContent.slides} />*/}
             <Container className="marketing">
                 <Row>
                     <h1 className="text-center jumbotron-heading mt-5">{props.homeContent.heading}</h1>
                 </Row>
-                <HeadingPanel headingBlocks={props.homeContent.headingBlocks} />
-                <InfoPanel infoBlocks={props.homeContent.infoBlocks} />
+                {/*<HeadingPanel headingBlocks={props.homeContent.headingBlocks} />*/}
+                {/*<InfoPanel infoBlocks={props.homeContent.infoBlocks} />*/}
             </Container>
         </>
     );
