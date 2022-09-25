@@ -1,32 +1,134 @@
-import { React } from 'react';
-import ReactPlayer from 'react-player/lazy'
-import { Container, Col, Row, Button, ButtonGroup, Card } from 'react-bootstrap';
+import { React, useEffect, useState, Component } from 'react';
+import { Container, Col, Row, Button, Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../index.css';
 import './album.css';
 
-
-function Video(props) {
-    return (
-        <Col md={6} lg={4}>
-            <Card className="mb-4 box-shadow albumCard">
-                <div className="player-wrapper">
-                    <ReactPlayer className="react-player" url={props.data.url} controls={true} width="100%" height="100%" />
-                </div>
-                <Card.Body>
-                    <Card.Text>{props.data.text}</Card.Text>
-                    <div className="d-flex justify-content-between align-items-center">
-                        <ButtonGroup size="sm">
-                            <Button variant="outline-dark">{props.data.button1.text}</Button>
-                            <Button variant="outline-dark">{props.data.button2.text}</Button>
-                        </ButtonGroup>
-                        <small>9 mins</small>
-                    </div>
-                </Card.Body>
-            </Card>
-        </Col>
-    );
+class Video extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            error: null,
+            isLoaded: false,
+            items: null
+        };
+    }
+    componentDidMount() {
+        fetch("https://youtube.googleapis.com/youtube/v3/videos?part=snippet&id=" + this.props.data.url + "&key=")
+            .then(res => res.json())
+            .then(
+                (result) => {
+                    this.setState({
+                        isLoaded: true,
+                        items: result.items
+                    });
+                },
+                (error) => {
+                    this.setState({
+                        isLoaded: true,
+                        error
+                    });
+                }
+            )
+    }
+    render() {
+        const { error, isLoaded, items } = this.state;
+        const data = this.props.data;
+        if (error) {
+            return <div>Помилка: {error.message}</div>;
+        } else if (!isLoaded) {
+            return <div>Завантаження...</div>;
+        } else {
+            var date = "";
+            if (items) {
+                date = items;
+                date = date[0];
+                date = date.snippet;
+                date = date.publishedAt;
+                date = new Date(date);
+                date = date.toLocaleString();
+            }
+            return (
+                <Col md={6} lg={4}>
+                    <Card className="mb-4 box-shadow albumCard">
+                        <div className="player-wrapper">
+                            <iframe src={"https://www.youtube.com/embed/" + data.url}
+                                width="100%"
+                                height="100%"
+                                className="react-player"
+                            />
+                        </div>
+                        <Card.Body>
+                            <Card.Text>{data.text}</Card.Text>
+                            <div className="d-flex justify-content-between align-items-center">
+                                <small></small>
+                                <small>{date}</small>
+                            </div>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            );
+        }
+    }
 }
+
+//function Video1(props) {
+//    const [error, setError] = useState(null);
+//    const [isLoaded, setIsLoaded] = useState(false);
+//    const [items, setItems] = useState([]);
+//    const request = "https://youtube.googleapis.com/youtube/v3/videos?part=snippet&id=" + props.data.url + "&key=";
+
+//    useEffect(() => {
+//        fetch(request)
+//            .then(res => res.json())
+//            .then(
+//                (result) => {
+//                    setIsLoaded(true);
+//                    setItems(result.items);
+//                },
+//                (error) => {
+//                    setIsLoaded(true);
+//                    setError(error);
+//                }
+//            )
+//    }, [])
+
+//    if (error) {
+//        return <div>Error: {error.message}</div>;
+//    } else if (!isLoaded) {
+//        return <div>Loading...</div>;
+//    } else {
+//        var date = "";
+//        if (items) {
+//            date = items;
+//            date = date[0];
+//            date = date.snippet;
+//            date = date.publishedAt;
+//            date = new Date(date);
+//            date = date.toLocaleString();
+//        }
+//        return (
+//            <Col md={6} lg={4}>
+//                <Card className="mb-4 box-shadow albumCard">
+//                    <div className="player-wrapper">
+//                        <iframe src={"https://www.youtube.com/embed/" + props.data.url}
+//                            width="100%"
+//                            height="100%"
+//                            className="react-player"
+//                        />
+//                    </div>
+//                    <Card.Body>
+//                        <Card.Text>{props.data.text}</Card.Text>
+//                        <div className="d-flex justify-content-between align-items-center">
+//                            <small></small>
+//                            <small>{date}</small>
+//                        </div>
+//                    </Card.Body>
+//                </Card>
+//            </Col>
+//        );
+//    }
+//}
 
 function ThumbnailsCollection(props) {
     return (

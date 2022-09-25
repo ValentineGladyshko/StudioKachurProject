@@ -1,110 +1,110 @@
 {
-    "heading": "Альбом робіт",
-    "text": "Якийсь текст",
-    "button1": {
-        "text": "Текст кнопки"
-    },
-    "button2": {
-        "text": "Текст кнопки"
-    },
-    "thumbnailsCollection": [
+  "heading": "Альбом робіт",
+  "text": "Якийсь текст",
+  "button1": {
+    "text": "Текст кнопки"
+  },
+  "button2": {
+    "text": "Текст кнопки"
+  },
+  "thumbnailsCollection": [
+    {
+      "heading": "Аніме",
+      "id": "anime",
+      "videoCollection": [
         {
-            "heading": "Аніме",
-            "id": "anime",
-            "videoCollection": [
-                {
-                    "url": "https://www.youtube.com/watch?v=a2kvnOK9bLU",
-                    "text": "Якийсь текст",
-                    "button1": {
-                        "text": "Текст кнопки"
-                    },
-                    "button2": {
-                        "text": "Текст кнопки"
-                    }
-                },
-                {
-                    "url": "https://www.youtube.com/watch?v=1zmFyCaH-rI",
-                    "text": "Якийсь текст",
-                    "button1": {
-                        "text": "Текст кнопки"
-                    },
-                    "button2": {
-                        "text": "Текст кнопки"
-                    }
-                },
-                {
-                    "url": "https://www.youtube.com/watch?v=9y-4Za9AfRM",
-                    "text": "Якийсь текст",
-                    "button1": {
-                        "text": "Текст кнопки"
-                    },
-                    "button2": {
-                        "text": "Текст кнопки"
-                    }
-                }
-            ]
+          "url": "a2kvnOK9bLU",
+          "text": "Якийсь текст",
+          "button1": {
+            "text": "Текст кнопки"
+          },
+          "button2": {
+            "text": "Текст кнопки"
+          }
         },
         {
-            "heading": "Кінематографічні ролики",
-            "id": "cinematic",
-            "videoCollection": [
-                {
-                    "url": "https://www.youtube.com/watch?v=2akfIiSCY04",
-                    "text": "Якийсь текст",
-                    "button1": {
-                        "text": "Текст кнопки"
-                    },
-                    "button2": {
-                        "text": "Текст кнопки"
-                    }
-                },
-                {
-                    "url": "https://www.youtube.com/watch?v=g110-M__GtU",
-                    "text": "Якийсь текст",
-                    "button1": {
-                        "text": "Текст кнопки"
-                    },
-                    "button2": {
-                        "text": "Текст кнопки"
-                    }
-                },
-                {
-                    "url": "https://www.youtube.com/watch?v=3estsyTc-EU",
-                    "text": "Якийсь текст",
-                    "button1": {
-                        "text": "Текст кнопки"
-                    },
-                    "button2": {
-                        "text": "Текст кнопки"
-                    }
-                }
-            ]
+          "url": "1zmFyCaH-rI",
+          "text": "Якийсь текст",
+          "button1": {
+            "text": "Текст кнопки"
+          },
+          "button2": {
+            "text": "Текст кнопки"
+          }
         },
         {
-            "heading": "Мультфільми та Мультсеріали",
-            "id": "cartoons",
-            "videoCollection": [
-                {
-                    "url": "https://www.youtube.com/watch?v=UbhtO297TYM",
-                    "text": "Якийсь текст",
-                    "button1": {
-                        "text": "Текст кнопки"
-                    },
-                    "button2": {
-                        "text": "Текст кнопки"
-                    }
-                },
-                {
-                    "url": "https://www.youtube.com/watch?v=zmpPQNlEVwk",
-                    "text": "Якийсь текст",
-                    "button1": {
-                        "text": "Текст кнопки"
-                    },
-                    "button2": {
-                        "text": "Текст кнопки"
-                    }
-                }
-            ]
+          "url": "9y-4Za9AfRM",
+          "text": "Якийсь текст",
+          "button1": {
+            "text": "Текст кнопки"
+          },
+          "button2": {
+            "text": "Текст кнопки"
+          }
         }
-    ]
+      ]
+    },
+    {
+      "heading": "Кінематографічні ролики",
+      "id": "cinematic",
+      "videoCollection": [
+        {
+          "url": "2akfIiSCY04",
+          "text": "Якийсь текст",
+          "button1": {
+            "text": "Текст кнопки"
+          },
+          "button2": {
+            "text": "Текст кнопки"
+          }
+        },
+        {
+          "url": "g110-M__GtU",
+          "text": "Якийсь текст",
+          "button1": {
+            "text": "Текст кнопки"
+          },
+          "button2": {
+            "text": "Текст кнопки"
+          }
+        },
+        {
+          "url": "3estsyTc-EU",
+          "text": "Якийсь текст",
+          "button1": {
+            "text": "Текст кнопки"
+          },
+          "button2": {
+            "text": "Текст кнопки"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "Мультфільми та Мультсеріали",
+      "id": "cartoons",
+      "videoCollection": [
+        {
+          "url": "UbhtO297TYM",
+          "text": "Якийсь текст",
+          "button1": {
+            "text": "Текст кнопки"
+          },
+          "button2": {
+            "text": "Текст кнопки"
+          }
+        },
+        {
+          "url": "zmpPQNlEVwk",
+          "text": "Якийсь текст",
+          "button1": {
+            "text": "Текст кнопки"
+          },
+          "button2": {
+            "text": "Текст кнопки"
+          }
+        }
+      ]
+    }
+  ]
 }

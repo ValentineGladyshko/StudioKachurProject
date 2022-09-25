@@ -1,110 +1,110 @@
 {
-    "heading": "Album example",
-    "text": "Something short and leading about the collection below-its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.",
-    "button1": {
-        "text": "Some button"
-    },
-    "button2": {
-        "text": "Some button"
-    },
-    "thumbnailsCollection": [
+  "heading": "Album example",
+  "text": "Something short and leading about the collection below-its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.",
+  "button1": {
+    "text": "Some button"
+  },
+  "button2": {
+    "text": "Some button"
+  },
+  "thumbnailsCollection": [
+    {
+      "heading": "Anime",
+      "id": "anime",
+      "videoCollection": [
         {
-            "heading": "Anime",
-            "id": "anime",
-            "videoCollection": [
-                {
-                    "url": "https://www.youtube.com/watch?v=a2kvnOK9bLU",
-                    "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-                    "button1": {
-                        "text": "View"
-                    },
-                    "button2": {
-                        "text": "Edit"
-                    }
-                },
-                {
-                    "url": "https://www.youtube.com/watch?v=1zmFyCaH-rI",
-                    "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-                    "button1": {
-                        "text": "View"
-                    },
-                    "button2": {
-                        "text": "Edit"
-                    }
-                },
-                {
-                    "url": "https://www.youtube.com/watch?v=9y-4Za9AfRM",
-                    "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-                    "button1": {
-                        "text": "View"
-                    },
-                    "button2": {
-                        "text": "Edit"
-                    }
-                }
-            ]
+          "url": "a2kvnOK9bLU",
+          "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+          "button1": {
+            "text": "View"
+          },
+          "button2": {
+            "text": "Edit"
+          }
         },
         {
-            "heading": "Cinematic",
-            "id": "cinematic",
-            "videoCollection": [
-                {
-                    "url": "https://www.youtube.com/watch?v=2akfIiSCY04",
-                    "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-                    "button1": {
-                        "text": "View"
-                    },
-                    "button2": {
-                        "text": "Edit"
-                    }
-                },
-                {
-                    "url": "https://www.youtube.com/watch?v=g110-M__GtU",
-                    "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-                    "button1": {
-                        "text": "View"
-                    },
-                    "button2": {
-                        "text": "Edit"
-                    }
-                },
-                {
-                    "url": "https://www.youtube.com/watch?v=3estsyTc-EU",
-                    "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-                    "button1": {
-                        "text": "View"
-                    },
-                    "button2": {
-                        "text": "Edit"
-                    }
-                }
-            ]
+          "url": "1zmFyCaH-rI",
+          "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+          "button1": {
+            "text": "View"
+          },
+          "button2": {
+            "text": "Edit"
+          }
         },
         {
-            "heading": "Cartoons",
-            "id": "cartoons",
-            "videoCollection": [
-                {
-                    "url": "https://www.youtube.com/watch?v=UbhtO297TYM",
-                    "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-                    "button1": {
-                        "text": "View"
-                    },
-                    "button2": {
-                        "text": "Edit"
-                    }
-                },
-                {
-                    "url": "https://www.youtube.com/watch?v=zmpPQNlEVwk",
-                    "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-                    "button1": {
-                        "text": "View"
-                    },
-                    "button2": {
-                        "text": "Edit"
-                    }
-                }
-            ]
+          "url": "9y-4Za9AfRM",
+          "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+          "button1": {
+            "text": "View"
+          },
+          "button2": {
+            "text": "Edit"
+          }
         }
-    ]
+      ]
+    },
+    {
+      "heading": "Cinematic",
+      "id": "cinematic",
+      "videoCollection": [
+        {
+          "url": "2akfIiSCY04",
+          "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+          "button1": {
+            "text": "View"
+          },
+          "button2": {
+            "text": "Edit"
+          }
+        },
+        {
+          "url": "g110-M__GtU",
+          "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+          "button1": {
+            "text": "View"
+          },
+          "button2": {
+            "text": "Edit"
+          }
+        },
+        {
+          "url": "3estsyTc-EU",
+          "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+          "button1": {
+            "text": "View"
+          },
+          "button2": {
+            "text": "Edit"
+          }
+        }
+      ]
+    },
+    {
+      "heading": "Cartoons",
+      "id": "cartoons",
+      "videoCollection": [
+        {
+          "url": "UbhtO297TYM",
+          "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+          "button1": {
+            "text": "View"
+          },
+          "button2": {
+            "text": "Edit"
+          }
+        },
+        {
+          "url": "zmpPQNlEVwk",
+          "text": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+          "button1": {
+            "text": "View"
+          },
+          "button2": {
+            "text": "Edit"
+          }
+        }
+      ]
+    }
+  ]
 }

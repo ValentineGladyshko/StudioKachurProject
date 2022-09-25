@@ -12,7 +12,7 @@ function FooterBar(props) {
                 <Container>
                     <Row className="text-center">
                         <Col xl={4} md={6} className="mb-3">
-                            <h4 class="text-uppercase mb-2">{props.footerContent.header1}</h4>
+                            <h4 className="text-uppercase mb-2">{props.footerContent.header1}</h4>
                             <Row>
                                 {props.footerContent.contacts.map((row, index) =>
                                     <Contact key={index} data={row} />)
@@ -20,13 +20,13 @@ function FooterBar(props) {
                             </Row>
                         </Col>
                         <Col xl={4} md={6} className="mb-3">
-                            <h4 class="text-uppercase mb-3">{props.footerContent.header2}</h4>
+                            <h4 className="text-uppercase mb-3">{props.footerContent.header2}</h4>
                             {props.footerContent.socialMedia.map((row, index) =>
                                 <SocialMediaButton key={index} data={row} />)
                             }
                         </Col>
                         <Col xl={4} className="mb-3">
-                            <h4 class="text-uppercase mb-3">{props.footerContent.header3}</h4>
+                            <h4 className="text-uppercase mb-3">{props.footerContent.header3}</h4>
                             {props.footerContent.developerContacts.map((row, index) =>
                                 <SocialMediaButton key={index} data={row} />)
                             }
