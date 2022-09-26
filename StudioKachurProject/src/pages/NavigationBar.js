@@ -41,12 +41,12 @@ function NavigationBar(props) {
                         <NavLinks navLinks={props.navLinks.navLinks} />
                     </Nav>
                     <Nav>
-                        <NavLink to="/gb" className="d-flex nav-link py-0">
+                        <Nav.Link href="https://www.tiktok.com/@studiokachur" className="d-flex nav-link py-0">
                             <i className="bi bi-tiktok my-auto" style={{ fontSize: 22 }}></i>
-                        </NavLink>
-                        <NavLink to="https://instagram.com/studio_kachur" className="d-flex nav-link py-0">
+                        </Nav.Link>
+                        <Nav.Link href="https://instagram.com/studio_kachur" className="d-flex nav-link py-0">
                             <i className="bi bi-instagram my-auto" style={{ fontSize: 22 }}></i>
-                        </NavLink>
+                        </Nav.Link>
                         {languages.map((language) => (
                             <NavLink
                                 key={language.name}
