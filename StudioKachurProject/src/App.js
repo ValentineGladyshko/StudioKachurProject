@@ -5,6 +5,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 import Home from './pages/Home';
 import Album from './pages/Album';
+import VideoPlayer from './pages/VideoPlayer';
 import NavigationBar from './pages/NavigationBar';
 import FooterBar from './pages/FooterBar';
 import NotFound from './pages/NotFound';
@@ -71,6 +72,7 @@ function App() {
             <Route path='/ua' element={<Main navLinks={navLinksUa} footerContent={footerContentUa} />}>
                 <Route index element={<Home homeContent={homeContentUa} />} />
                 <Route path="album" element={<Album albumContent={albumContentUa} />} />
+                <Route path="player" element={<VideoPlayer />} />
                 <Route path="members" element={<Members membersContent={membersContentUa} />} />
                 <Route path="chronometer" element={<Chronometer chronometerContent={chronometerContentUa}/>} />
                 <Route path="*" element={<NotFound notFoundContent={notFoundContentUa}/>} />
