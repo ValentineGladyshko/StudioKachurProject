@@ -4,38 +4,27 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../index.css';
 import './album.css';
 
-class Video extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            error: null,
-            isLoaded: false,
-            items: null
-        };
-    }
-    render() {
-        const data = this.props.data;
-
-        return (
-            <Col md={6} lg={4}>
-                <Card className="mb-4 box-shadow albumCard">
-                    <div className="player-wrapper">
-                        <iframe src={"https://www.youtube.com/embed/" + data.url}
-                            width="100%"
-                            height="100%"
-                            className="react-player"
-                        />
+function Video(props) {
+    return (
+        <Col md={6} lg={4}>
+            <Card className="mb-4 box-shadow albumCard">
+                <div className="player-wrapper">
+                    <iframe src={"https://www.youtube.com/embed/" + props.data.url}
+                        width="100%"
+                        height="100%"
+                        className="react-player"
+                    />
+                </div>
+                <Card.Body>
+                    <Card.Text>{props.data.text}</Card.Text>
+                    <div className="d-flex justify-content-between align-items-center">
                     </div>
-                    <Card.Body>
-                        <Card.Text>{data.text}</Card.Text>
-                        <div className="d-flex justify-content-between align-items-center">
-                        </div>
-                    </Card.Body>
-                </Card>
-            </Col>
-        );
-    }
+                </Card.Body>
+            </Card>
+        </Col>
+    );
 }
+
 
 function ThumbnailsCollection(props) {
     return (
@@ -44,6 +33,27 @@ function ThumbnailsCollection(props) {
                 <VideoCollection key={index} data={row} />)
             }
         </>
+    );
+}
+
+function PlayerVideo(props) {
+    return (
+        <Col md={6} lg={4}>
+            <Card className="mb-4 box-shadow albumCard">
+                <div className="albumContainer">
+                    <img className="img-fluid mx-auto albumImage" alt={props.data.image.alt} src={props.data.image.src} />
+                    <div class="top-left">{props.data.name}</div>
+                </div>
+                <Card.Body>
+                    <Card.Text>{props.data.text}</Card.Text>
+                    <div className="d-flex justify-content-between align-items-center">
+                    </div>
+                    <a href={"player?id=" + props.data.id} className="btn btn-outline-dark stretched-link">Watch <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
+                        <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                    </svg></a>
+                </Card.Body>
+            </Card>
+        </Col>
     );
 }
 
@@ -78,6 +88,18 @@ function Album(props) {
                 </Container>
             </section>
             <ThumbnailsCollection thumbnailsCollection={props.albumContent.thumbnailsCollection} />
+            <section className="py-2" id="online">
+                <Container>
+                    <Row className="text-center">
+                        <h2 className="pb-2">Online</h2>
+                    </Row>
+                <Row>
+                    {props.albumContent.videoCollection.map((row, index) =>
+                        <PlayerVideo key={index} data={row} />)
+                    }
+                </Row>
+                </Container>
+            </section>
         </>
     );
 }
