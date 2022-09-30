@@ -9,7 +9,7 @@ function NotFound(props) {
             <Container>
                 <h1 className="jumbotron-heading">{props.notFoundContent.heading}</h1>
                 <p className="lead">{props.notFoundContent.text}</p>
-                <Link to={props.notFoundContent.link.href} className="btn btn-lg btn-outline-light fw-bold">
+                <Link to={props.notFoundContent.link.href} className="btn btn-lg btn-outline-dark fw-bold">
                     {props.notFoundContent.link.text}
                 </Link>
             </Container>

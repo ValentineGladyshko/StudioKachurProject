@@ -72,7 +72,7 @@ function App() {
             <Route path='/ua' element={<Main navLinks={navLinksUa} footerContent={footerContentUa} />}>
                 <Route index element={<Home homeContent={homeContentUa} />} />
                 <Route path="album" element={<Album albumContent={albumContentUa} />} />
-                <Route path="player" element={<VideoPlayer />} />
+                <Route path="player" element={<VideoPlayer lang="ua" />} />
                 <Route path="members" element={<Members membersContent={membersContentUa} />} />
                 <Route path="chronometer" element={<Chronometer chronometerContent={chronometerContentUa}/>} />
                 <Route path="*" element={<NotFound notFoundContent={notFoundContentUa}/>} />
@@ -80,6 +80,7 @@ function App() {
             <Route path='/ru' element={<Main navLinks={navLinksRu} footerContent={footerContentRu} />}>
                 <Route index element={<Home homeContent={homeContentRu} />} />
                 <Route path="album" element={<Album albumContent={albumContentRu} />} />
+                <Route path="player" element={<VideoPlayer lang="ru" />} />
                 <Route path="members" element={<Members membersContent={membersContentRu} />} />
                 <Route path="chronometer" element={<Chronometer chronometerContent={chronometerContentRu} />} />
                 <Route path="*" element={<NotFound notFoundContent={notFoundContentRu}/>} />
@@ -87,6 +88,7 @@ function App() {
             <Route path='/en' element={<Main navLinks={navLinksEn} footerContent={footerContentEn} />}>
                 <Route index element={<Home homeContent={homeContentEn} />} />
                 <Route path="album" element={<Album albumContent={albumContentEn} />} />
+                <Route path="player" element={<VideoPlayer lang="en" />} />
                 <Route path="members" element={<Members membersContent={membersContentEn} />} />
                 <Route path="chronometer" element={<Chronometer chronometerContent={chronometerContentEn} />} />
                 <Route path="*" element={<NotFound notFoundContent={notFoundContentEn}/>} />
