@@ -18,7 +18,7 @@ class VideoPlayer extends Component {
     componentDidMount() {
         const videoId = new URLSearchParams(window.location.search).get("id")
         if (videoId) {
-            var col = this.props.playerContent.videoCollection;
+            var col = this.props.videoCollection;
 
             if (col) {
                 var downloadInfo = null;

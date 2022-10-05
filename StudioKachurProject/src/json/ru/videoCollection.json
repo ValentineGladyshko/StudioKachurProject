@@ -1,0 +1,32 @@
+[
+  {
+    "id": "anime1",
+    "name": "Cyberpunk: Edgerunners Ru",
+    "text": "Какой то текст",
+    "image": {
+      "src": "../images/anime1.jpg",
+      "alt": "Generic placeholder image"
+    },
+    "magnet": "magnet:?xt=urn:btih:f5e47ccd698617c9d455ffce9ff9a299f08a604c&dn=CYBERPUNK+Edgerunners+-+1+series+DUBBING+(SOUNDED+BY+KACHUR+STUDIO).mp4&tr=wss%3A%2F%2Ftracker.btorrent.xyz%2Fannounce&tr=wss%3A%2F%2Ftracker.openwebtorrent.com%2Fannounce&tr=wss%3A%2F%2Ftracker.webtorrent.io%2Fannounce&tr=wss%3A%2F%2Ftracker.fastcast.nz%2Fannounce&tr=wss%3A%2F%2Ftracker.novage.com.ua%2Fannounce&tr=wss%3A%2F%2Fpeertube2.cpy.re%2Ftracker%2Fsocket%2Fannounce&tr=wss%3A%2F%2Ftracker.files.fm%3A7073%2Fannounce&tr=wss%3A%2F%2Fspacetradersapi-chatbox.herokuapp.com%3A443%2Fannounce&tr=wss%3A%2F%2Fqot.abiir.top%3A443%2Fannounce&tr=ws%3A%2F%2Ftracker.files.fm%3A7072%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce&tr=https%3A%2F%2Ftracker.nanoha.org%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.files.fm%3A6969%2Fannounce&tr=http%3A%2F%2Fopen.acgnxtracker.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.monitorit4.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.army%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.com%3A80%2Fannounce&tr=udp%3A%2F%2Ffe.dealclub.de%3A6969%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leech.ie%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.altrosky.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Fapp.icon256.com%3A8000%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com"
+  },
+  {
+    "id": "anime2",
+    "name": "Cyberpunk: Edgerunners Ru",
+    "text": "Какой то текст",
+    "image": {
+      "src": "../images/anime1.jpg",
+      "alt": "Generic placeholder image"
+    },
+    "magnet": "magnet:?xt=urn:btih:f5e47ccd698617c9d455ffce9ff9a299f08a604c&dn=CYBERPUNK+Edgerunners+-+1+series+DUBBING+(SOUNDED+BY+KACHUR+STUDIO).mp4&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com&tr=wss%3A%2F%2Ftracker.webtorrent.io&tr=wss%3A%2F%2Ftracker.fastcast.nz&tr=wss%3A%2F%2Ftracker.novage.com.ua&tr=wss%3A%2F%2Fpeertube2.cpy.re%2Ftracker%2Fsocket&tr=wss%3A%2F%2Ftracker.files.fm%3A7073&tr=wss%3A%2F%2Fspacetradersapi-chatbox.herokuapp.com%3A443&tr=wss%3A%2F%2Fqot.abiir.top%3A443&tr=ws%3A%2F%2Ftracker.files.fm%3A7072&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095&tr=https%3A%2F%2Ftracker.nanoha.org%3A443&tr=http%3A%2F%2Ftracker.files.fm%3A6969&tr=http%3A%2F%2Fopen.acgnxtracker.com%3A80&tr=udp%3A%2F%2Ftracker.monitorit4.me%3A6969&tr=udp%3A%2F%2Ftracker.army%3A6969&tr=udp%3A%2F%2Ftracker2.dler.com%3A80&tr=udp%3A%2F%2Ffe.dealclub.de%3A6969&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969&tr=udp%3A%2F%2Ftracker.leech.ie%3A1337&tr=udp%3A%2F%2Ftracker.altrosky.nl%3A6969&tr=udp%3A%2F%2Fapp.icon256.com%3A8000&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969"
+  },
+  {
+    "id": "example1",
+    "name": "Sintel",
+    "text": "Какой то текст",
+    "image": {
+      "src": "../images/image10.jpg",
+      "alt": "Generic placeholder image"
+    },
+    "magnet": "magnet:?xt=urn:btih:08ada5a7a6183aae1e09d831df6748d566095a10&dn=Sintel&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.empire-js.us%3A1337&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.fastcast.nz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com&ws=https%3A%2F%2Fwebtorrent.io%2Ftorrents%2F&xs=https%3A%2F%2Fwebtorrent.io%2Ftorrents%2Fsintel.torrent"
+  }
+]
