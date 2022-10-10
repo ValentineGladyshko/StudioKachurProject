@@ -39,7 +39,7 @@ function ThumbnailsCollection(props) {
 
 function PlayerVideo(props) {
     return (
-        <Col md={6} lg={4}>
+        <Col md={6} lg={4} className="mb-4">
             <Card className="box-shadow albumCard">
                 <div className="albumContainer">
                     <img className="img-fluid mx-auto albumImage" alt={props.data.image.alt} src={props.data.image.src} />

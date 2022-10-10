@@ -10,6 +10,7 @@ class VideoPlayer extends Component {
         this.state = {
             videoName: "",
             magnet: "",
+            src: "",
             videoProgress: "",
             isLoaded: false
         };
@@ -29,10 +30,13 @@ class VideoPlayer extends Component {
                 if (downloadInfo) {
                     var name = downloadInfo.name;
                     var torrentId = downloadInfo.magnet;
+                    var path = downloadInfo.src;
 
                     this.setState({
                         videoName: name,
                         magnet: torrentId,
+                        src: path,
+                        videoProgress: this.props.playerContent.statusText,
                         isLoaded: true
                     });
 
@@ -54,7 +58,7 @@ class VideoPlayer extends Component {
 
                         for (let i = 0; i < torrent.files.length; i++) {
                             if (torrent.files[i].name.endsWith(".mp4")) {
-                                torrent.files[i].renderTo('video#player');
+                                torrent.files[i].appendTo("#player");
                                 break;
                             }
                         }
@@ -82,15 +86,15 @@ class VideoPlayer extends Component {
             return (
                 <Container className="player">
                     <Row>
-                        <h1 className="text-center jumbotron-heading mt-5">{this.state.videoName}</h1>
+                        <h1 className="text-center jumbotron-heading mt-5 mb-3">{this.state.videoName}</h1>
+                        <p><b>{this.props.playerContent.infoText}</b></p>
                         <p><b>{this.props.playerContent.progressText}</b>{this.state.videoProgress}</p>
-                        <div>
-                            <video id="player" controls width="100%"></video>
+                        <div id="player">
                         </div>
                     </Row>
                     <Row className="justify-content-md-center">
                         <Col className="col-auto">
-                            <a href={this.state.magnet} className="text-decoration-none btn btn-outline-dark">{this.props.playerContent.downloadText}<svg className="my-auto" width="22" height="22" fill="currentColor" viewBox="0 0 16 16">
+                            <a href={this.state.src} className="text-decoration-none btn btn-outline-dark">{this.props.playerContent.downloadText}<svg className="my-auto" width="22" height="22" fill="currentColor" viewBox="0 0 16 16">
                                 <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
                                 <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
                             </svg>

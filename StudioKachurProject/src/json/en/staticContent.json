@@ -11,6 +11,8 @@
   },
   "playerContent": {
     "progressText": "Download Progress: ",
+    "statusText": "Searching peers...",
+    "infoText": "Player works in test mode, so it is better to just download the video using torrent",
     "downloadText": "Download video through torrent "
   },
   "chronometerContent": {

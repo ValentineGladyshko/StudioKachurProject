@@ -78,6 +78,46 @@
         "button2": {
           "text": "Текст кнопки"
         }
+      },
+      {
+        "url": "https://www.youtube.com/embed/OGRmkasYdOg",
+        "text": "Какой то текст",
+        "button1": {
+          "text": "Текст кнопки"
+        },
+        "button2": {
+          "text": "Текст кнопки"
+        }
+      },
+      {
+        "url": "https://www.youtube.com/embed/I4l2e4R5xew",
+        "text": "Какой то текст",
+        "button1": {
+          "text": "Текст кнопки"
+        },
+        "button2": {
+          "text": "Текст кнопки"
+        }
+      },
+      {
+        "url": "https://www.youtube.com/embed/fn6-xHgyQcg",
+        "text": "Какой то текст",
+        "button1": {
+          "text": "Текст кнопки"
+        },
+        "button2": {
+          "text": "Текст кнопки"
+        }
+      },
+      {
+        "url": "https://www.youtube.com/embed/5_b1tEV2Ng0",
+        "text": "Какой то текст",
+        "button1": {
+          "text": "Текст кнопки"
+        },
+        "button2": {
+          "text": "Текст кнопки"
+        }
       }
     ]
   },
