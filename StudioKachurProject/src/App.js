@@ -54,7 +54,7 @@ function App() {
         <Routes>
             <Route path='/' element={<Navigate to="/ua" replace />}></Route>
             <Route path='/ua' element={<Main navLinks={staticContentUa.navLinks} footerContent={staticContentUa.footerContent} />}>
-                <Route index element={<Home homeContent={staticContentUa.homeContent} />} />
+                <Route index element={<Members membersContent={staticContentUa.membersContent} />} />
                 <Route path="album" element={<Album albumContent={staticContentUa.albumContent} videoCollection={videoCollectionUa} thumbnailsCollection={thumbnailsCollectionUa}/>} />
                 <Route path="player" element={<VideoPlayer playerContent={staticContentUa.playerContent} videoCollection={videoCollectionUa} notFoundContent={staticContentUa.notFoundContent} />} />
                 <Route path="members" element={<Members membersContent={staticContentUa.membersContent} />} />
@@ -62,7 +62,7 @@ function App() {
                 <Route path="*" element={<NotFound notFoundContent={staticContentUa.notFoundContent}/>} />
             </Route>
             <Route path='/ru' element={<Main navLinks={staticContentRu.navLinks} footerContent={staticContentRu.footerContent} />}>
-                <Route index element={<Home homeContent={staticContentRu.homeContent} />} />
+                <Route index element={<Members membersContent={staticContentRu.membersContent} />} />
                 <Route path="album" element={<Album albumContent={staticContentRu.albumContent} videoCollection={videoCollectionRu} thumbnailsCollection={thumbnailsCollectionRu} />} />
                 <Route path="player" element={<VideoPlayer playerContent={staticContentRu.playerContent} videoCollection={videoCollectionRu} notFoundContent={staticContentRu.notFoundContent} />} />
                 <Route path="members" element={<Members membersContent={staticContentRu.membersContent} />} />
@@ -70,7 +70,7 @@ function App() {
                 <Route path="*" element={<NotFound notFoundContent={staticContentRu.notFoundContent} />} />
             </Route>
             <Route path='/en' element={<Main navLinks={staticContentEn.navLinks} footerContent={staticContentEn.footerContent} />}>
-                <Route index element={<Home homeContent={staticContentEn.homeContent} />} />
+                <Route index element={<Members membersContent={staticContentEn.membersContent} />} />
                 <Route path="album" element={<Album albumContent={staticContentEn.albumContent} videoCollection={videoCollectionEn} thumbnailsCollection={thumbnailsCollectionEn} />} />
                 <Route path="player" element={<VideoPlayer playerContent={staticContentEn.playerContent} videoCollection={videoCollectionEn} notFoundContent={staticContentEn.notFoundContent} />} />
                 <Route path="members" element={<Members membersContent={staticContentEn.membersContent} />} />

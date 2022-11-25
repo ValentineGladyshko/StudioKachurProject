@@ -89,19 +89,6 @@ function Album(props) {
                 </Container>
             </section>
             <ThumbnailsCollection thumbnailsCollection={props.thumbnailsCollection} />
-            <section className="py-2" id="online">
-                {/*весь контент надано дл¤ безкоштовного домашнього ознайомчого перегляду.*/}
-                <Container>
-                    <Row className="text-center">
-                        <h2 className="pb-2">Online</h2>
-                    </Row>
-                    <Row>
-                        {props.videoCollection.map((row, index) =>
-                            <PlayerVideo key={index} data={row} />)
-                        }
-                    </Row>
-                </Container>
-            </section>
         </>
     );
 }
